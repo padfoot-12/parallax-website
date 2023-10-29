@@ -63,3 +63,15 @@ header {
     transform: scale(1);
     opacity: 1;
 }
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./images/background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
